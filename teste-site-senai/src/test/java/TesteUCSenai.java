@@ -10,7 +10,7 @@ public class TesteUCSenai {
 	
 	@Before
 	public void ConfigurarTeste () {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\OI417414\\Documents\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\LE20041996\\Documents\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
