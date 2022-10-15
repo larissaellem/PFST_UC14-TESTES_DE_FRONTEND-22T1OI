@@ -21,5 +21,7 @@ public class TesteUCSenai {
 		driver.findElement(By.id("Busca1_txtFiltro")).sendKeys("Curso tecnologia senai");
 		driver.findElement(By.id("Busca1_txtFiltro")).sendKeys(Keys.ENTER);
 		driver.findElement(By.id("Busca1_btnBusca")).click();
+		
 	}
+	
 }
